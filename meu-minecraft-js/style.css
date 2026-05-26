@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #74b9ff; /* Cor do céu */
+    font-family: sans-serif;
+}
+
+#reticle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    pointer-events: none; /* Não atrapalha o clique do mouse */
+    user-select: none;
+}
